@@ -5,6 +5,10 @@ import com.alfredlima.javaevolution.service.StudentService;
 
 import java.util.List;
 
+/**
+ * var
+ * Java 10
+ */
 public class Evolution01Var {
 
     public static void main(String[] args) {

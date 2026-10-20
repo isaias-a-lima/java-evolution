@@ -4,6 +4,10 @@ import com.alfredlima.javaevolution.model.Status;
 
 import java.util.logging.Logger;
 
+/**
+ * Switch Expressions
+ * Java 12
+ */
 public class Evolution02Switch {
 
     public static void main(String[] args) {
@@ -26,7 +30,7 @@ public class Evolution02Switch {
 
         System.out.println("Description: " + description);
 
-        //java 17
+        //java 12+
         String description2 = switch (Status.INACTIVE) {
             case ACTIVE -> { // Usa-se desta forma para executar qualquer coisa antes de retornar o valor
                 LOG.info("Cliente ativo");

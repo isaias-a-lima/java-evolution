@@ -1,5 +1,9 @@
 package com.alfredlima.javaevolution;
 
+/**
+ * Text blocks
+ * Java 15
+ */
 public class Evolution03TextBlocks {
 
 
@@ -13,7 +17,7 @@ public class Evolution03TextBlocks {
 
         System.out.println("JSON: " + json);
 
-        //java 17
+        //java 15
         String json2 = """
         {
           "name": "Isaias",
