@@ -26,6 +26,10 @@ public class Student {
         return birthDate;
     }
 
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;
